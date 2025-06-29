@@ -1,0 +1,95 @@
+/* Import Google Font for a modern feel */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  padding: 40px 30px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2575fc;
+}
+
+.question-box {
+  background: #f4f7fa;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#choices {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#choices li {
+  margin: 10px 0;
+}
+
+#choices button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #2575fc;
+  border-radius: 8px;
+  background: #fff;
+  color: #2575fc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#choices button:hover {
+  background: #2575fc;
+  color: #fff;
+}
+
+button#next, #result button {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button#next:hover, #result button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
