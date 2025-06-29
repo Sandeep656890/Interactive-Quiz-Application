@@ -4,7 +4,7 @@
 
 *NAME*: SANDEEP YADAV
 
-*INTERN ID:
+*INTERN ID: CT04DF402
 
 *DOMAIN*: FRONT END DEVELOPMENT
 
@@ -26,3 +26,6 @@ The Interactive Quiz Application aims to demonstrate how modern web technologies
 
 By turning learning into an interactive experience, the application encourages users to participate actively rather than passively, leading to better retention and understanding. The simplicity of its design ensures that users of all ages and technical backgrounds can easily use it without the need for tutorials or instructions.
 
+#Output
+
+![Image](https://github.com/user-attachments/assets/1c2aca81-07cb-4282-abb7-f47baaf1e8c9)
